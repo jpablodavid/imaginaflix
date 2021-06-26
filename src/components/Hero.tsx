@@ -16,7 +16,7 @@ const Hero = ({ backdrop_path = null, title = "Vingadores", vote_avarege = 10 })
 
 		<header className=" box-border relative min-h-screen -mb-32">
 			<img
-				className="object-cover object-center h-full w-full"
+				className="object-cover object-center w-full h-full"
 				src={backdrop_path ? `${IMAGEURL}/original/${backdrop_path}` : placeholder}
 				alt="Filme em destaque"
 			/>
